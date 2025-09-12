@@ -2,10 +2,10 @@
 
 Hindi Tweet Sentiment Analysis
 
-##Project Overview:
+## Project Overview:
 This project predicts the sentiment of Hindi tweets as Positive or Negative using machine learning techniques. It combines text preprocessing, feature extraction with TF-IDF, and model training using multiple classifiers, including SVM, Random Forest, Naive Bayes, and Logistic Regression. The best performing model is deployed with a Gradio web interface for real-time predictions.
 
-##Features:
+## Features:
 Binary sentiment classification: Positive vs Negative
 Text preprocessing with TF-IDF vectorization
 Model evaluation using accuracy, precision, recall, F1-score, ROC curve, and confusion matrix
