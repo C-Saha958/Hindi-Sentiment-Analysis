@@ -13,18 +13,18 @@ Comparison of multiple classifiers for performance analysis
 Cross-validation to select the best model
 Deployment using Gradio for interactive predictions
 
-Columns:
+## Columns:
 tweet – Text of the Hindi tweet
 sentiment – Sentiment label (positive or negative)
 Neutral tweets are excluded to focus on binary classification
 
-Methodology:
+## Methodology:
 1.Data Preprocessing
 2.Remove neutral sentiments
 3.Convert labels to binary: Positive = 1, Negative = 0
 4.Split dataset into 80% training and 20% testing
 
-Feature Extraction:
+## Feature Extraction:
 TF-IDF vectorization (max_features=5000)
 Model Training & Evaluation
 Train multiple classifiers:
@@ -43,7 +43,7 @@ Perform cross-validation to select the best classifier
 
 Train the best model on full training data
 
-Deployment:
+## Deployment:
 Gradio interface allows input of a Hindi tweet and outputs predicted sentiment
 
 How to Run:
@@ -51,7 +51,7 @@ Clone the repository
 git clone <repository_link>
 
 
-Install required packages:
+## Install required packages:
 pip install -r requirements.txt
 
 Launch Gradio interface
@@ -61,7 +61,7 @@ python Final_Hindi_Sentiment_Analysis1.ipynb
 
 Enter a Hindi tweet and get sentiment prediction
 
-Technologies & Libraries:
+## Technologies & Libraries:
 1.Python 3.x
 2.Pandas, NumPy
 3.Scikit-learn (SVM, Random Forest, Naive Bayes, Logistic Regression)
