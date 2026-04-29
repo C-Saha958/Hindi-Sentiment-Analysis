@@ -1,4 +1,4 @@
-# 🇮🇳 Hindi Tweet Sentiment Analysis
+# Hindi Tweet Sentiment Analysis
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
 ![Scikit-learn](https://img.shields.io/badge/ML-Scikit--Learn-orange?logo=scikit-learn)
