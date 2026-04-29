@@ -1,70 +1,163 @@
-# Hindi-Sentiment-Analysis
+# 🇮🇳 Hindi Tweet Sentiment Analysis
 
-Hindi Tweet Sentiment Analysis
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![Scikit-learn](https://img.shields.io/badge/ML-Scikit--Learn-orange?logo=scikit-learn)
+![NLP](https://img.shields.io/badge/NLP-TF--IDF-green)
+![Gradio](https://img.shields.io/badge/Deployment-Gradio-yellow?logo=gradio)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-## Project Overview:
-This project predicts the sentiment of Hindi tweets as Positive or Negative using machine learning techniques. It combines text preprocessing, feature extraction with TF-IDF, and model training using multiple classifiers, including SVM, Random Forest, Naive Bayes, and Logistic Regression. The best performing model is deployed with a Gradio web interface for real-time predictions.
+---
 
-## Features:
-Binary sentiment classification: Positive vs Negative
-Text preprocessing with TF-IDF vectorization
-Model evaluation using accuracy, precision, recall, F1-score, ROC curve, and confusion matrix
-Comparison of multiple classifiers for performance analysis
-Cross-validation to select the best model
-Deployment using Gradio for interactive predictions
+## 🚀 Project Overview
 
-## Columns:
-tweet – Text of the Hindi tweet
-sentiment – Sentiment label (positive or negative)
-Neutral tweets are excluded to focus on binary classification
+This project performs **sentiment analysis on Hindi tweets**, classifying them as:
 
-## Methodology:
-1.Data Preprocessing
-2.Remove neutral sentiments
-3.Convert labels to binary: Positive = 1, Negative = 0
-4.Split dataset into 80% training and 20% testing
+* 😊 **Positive**
+* 😡 **Negative**
 
-## Feature Extraction:
-TF-IDF vectorization (max_features=5000)
-Model Training & Evaluation
-Train multiple classifiers:
-Support Vector Machine (SVM)
-Random Forest
-Multinomial Naive Bayes
-Logistic Regression
+It leverages **Natural Language Processing (NLP)** and **Machine Learning models** to deliver accurate predictions.
 
-*Evaluate using accuracy, precision, recall, F1-score
+💡 The best-performing model is deployed using an **interactive Gradio web interface** for real-time predictions.
 
-ROC curves and confusion matrices plotted
+---
 
-*Best Model Selection
+## ✨ Features
 
-Perform cross-validation to select the best classifier
+* 🔍 Binary sentiment classification (Positive vs Negative)
+* 🧹 Text preprocessing pipeline
+* 📊 TF-IDF vectorization for feature extraction
+* 🤖 Multiple ML models for comparison:
 
-Train the best model on full training data
+  * Support Vector Machine (SVM)
+  * Random Forest
+  * Naive Bayes
+  * Logistic Regression
+* 📈 Model evaluation using:
 
-## Deployment:
-Gradio interface allows input of a Hindi tweet and outputs predicted sentiment
+  * Accuracy
+  * Precision
+  * Recall
+  * F1-score
+  * ROC Curve
+  * Confusion Matrix
+* 🔁 Cross-validation for best model selection
+* 🌐 Gradio deployment for real-time predictions
 
-How to Run:
-Clone the repository
+---
+
+## 📂 Dataset Description
+
+| Column       | Description                 |
+| ------------ | --------------------------- |
+| 📝 tweet     | Hindi tweet text            |
+| 🎯 sentiment | Label (Positive / Negative) |
+
+📌 Note: Neutral tweets are removed to focus on binary classification.
+
+---
+
+## ⚙️ Methodology
+
+### 🧹 Data Preprocessing
+
+1. Remove neutral tweets
+2. Convert labels:
+
+   * Positive → **1**
+   * Negative → **0**
+3. Train-test split:
+
+   * 80% Training
+   * 20% Testing
+
+---
+
+### 🧠 Feature Extraction
+
+* TF-IDF Vectorization
+* `max_features = 5000`
+
+---
+
+### 🤖 Model Training & Evaluation
+
+Models trained:
+
+![SVM](https://img.shields.io/badge/SVM-Model-purple?style=for-the-badge\&logo=scikitlearn)
+![Random Forest](https://img.shields.io/badge/Random%20Forest-Model-green?style=for-the-badge\&logo=tree)
+![Naive Bayes](https://img.shields.io/badge/Naive%20Bayes-Model-blue?style=for-the-badge\&logo=python)
+![Logistic Regression](https://img.shields.io/badge/Logistic%20Regression-Model-orange?style=for-the-badge\&logo=databricks)
+
+Evaluation metrics:
+
+* Accuracy
+* Precision
+* Recall
+* F1-score
+* ROC Curve
+* Confusion Matrix
+
+---
+
+### 🏆 Best Model Selection
+
+* Cross-validation performed
+* Best-performing model selected
+* Final model trained on full dataset
+
+---
+
+## 🌐 Deployment
+
+Interactive **Gradio interface**:
+
+* ✍️ Input a Hindi tweet
+* ⚡ Get instant sentiment prediction
+
+---
+
+## ▶️ How to Run
+
+```bash
+# Clone the repository
 git clone <repository_link>
 
-
-## Install required packages:
+# Install dependencies
 pip install -r requirements.txt
 
-Launch Gradio interface
-
+# Run the notebook / app
 python Final_Hindi_Sentiment_Analysis1.ipynb
+```
 
+---
 
-Enter a Hindi tweet and get sentiment prediction
+## 🛠️ Tech Stack
 
-## Technologies & Libraries:
-1.Python 3.x
-2.Pandas, NumPy
-3.Scikit-learn (SVM, Random Forest, Naive Bayes, Logistic Regression)
-4.Matplotlib, Seaborn
-5.TF-IDF Vectorizer for feature extraction
-6.Gradio for deployment
+* 🐍 Python 3.x
+* 📊 Pandas, NumPy
+* 🤖 Scikit-learn
+* 📉 Matplotlib, Seaborn
+* 🧠 TF-IDF Vectorizer
+* 🌐 Gradio
+
+---
+
+## 🌟 Key Takeaways
+
+* NLP can effectively analyze regional language sentiment 🇮🇳
+* Model comparison helps identify the best approach 🎯
+* Deployment bridges the gap between ML and real-world use 🚀
+
+---
+
+## 🔮 Future Improvements
+
+* 🤖 Deep Learning models (LSTM, BERT)
+* 🌍 Multilingual sentiment analysis
+* 📡 Real-time streaming tweet analysis
+
+---
+
+## ⭐ Support
+
+If you found this project helpful, consider giving it a ⭐ and sharing it!
