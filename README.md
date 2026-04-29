@@ -4,7 +4,6 @@
 ![Scikit-learn](https://img.shields.io/badge/ML-Scikit--Learn-orange?logo=scikit-learn)
 ![NLP](https://img.shields.io/badge/NLP-TF--IDF-green)
 ![Gradio](https://img.shields.io/badge/Deployment-Gradio-yellow?logo=gradio)
-![License](https://img.shields.io/badge/License-MIT-green)
 
 ---
 
@@ -51,8 +50,6 @@ It leverages **Natural Language Processing (NLP)** and **Machine Learning models
 | ------------ | --------------------------- |
 | 📝 tweet     | Hindi tweet text            |
 | 🎯 sentiment | Label (Positive / Negative) |
-
-📌 Note: Neutral tweets are removed to focus on binary classification.
 
 ---
 
